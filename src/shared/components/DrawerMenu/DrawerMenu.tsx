@@ -13,7 +13,7 @@ import { Box, useMediaQuery } from "@mui/system";
 import { useDrawerContext } from "../../contexts";
 import { useMatch, useNavigate, useResolvedPath } from "react-router";
 
-interface IMenuLateral {
+interface IDrawerMenu {
   children: React.ReactNode;
 }
 
@@ -49,7 +49,7 @@ const ListItemLink: React.FC<IListItemLinkProps> = ({
   );
 };
 
-export const MenuLateral: React.FC<IMenuLateral> = ({ children }) => {
+export const DrawerMenu: React.FC<IDrawerMenu> = ({ children }) => {
   const theme = useTheme();
   const smDown = useMediaQuery(theme.breakpoints.down("sm"));
 

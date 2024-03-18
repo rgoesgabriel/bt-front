@@ -1,3 +1,12 @@
 {
-  "pessoas": {}
+  "dashboard": [
+    {
+      "id": 1,
+      "tournamentName": "Clube Campestre",
+      "data": "20/01/2025"
+    }
+  ],
+  "auth": {
+    "accessToken": "login.vamo.play"
+  }
 }
